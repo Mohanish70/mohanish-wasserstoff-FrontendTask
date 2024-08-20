@@ -5,7 +5,7 @@ interface FileTreeProps {
 }
 
 const FileTree: React.FC<FileTreeProps> = ({ onFileSelect }) => {
-  const [files, setFiles] = useState({
+  const [files] = useState({
     '/': {
       type: 'folder',
       children: {

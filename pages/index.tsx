@@ -8,7 +8,6 @@ const TextEditor = dynamic(() => import('../components/TextEditor'), { ssr: fals
 const NoteMaker = dynamic(() => import('../components/NoteMaker'), { ssr: false });
 const ListMaker = dynamic(() => import('../components/ListMaker'), { ssr: false });
 const ReadmePreview = dynamic(() => import('../components/ReadmePreview'), { ssr: false });
-const FileTree = dynamic(() => import('../components/FileTree'), { ssr: false });
 
 export interface File {
   name: string;
